@@ -24,6 +24,16 @@
     margin: 2.2rem;
 }
 
+.nav-top-items:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 40%;
+    height: 5px;
+    width: 15px;
+    background-color: red;
+}
+
 .nav-top-item {
     font-weight: 600;
     margin: 1rem;
