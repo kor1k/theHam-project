@@ -13,8 +13,8 @@
     display: flex;
     justify-content: center;
     height: 90px;
-    background-color: gray;
-    opacity: .5;
+    background-color: rgba(73, 71, 63, 0.6);
+    width: 100%;
     align-items: center;
 }
 
@@ -24,15 +24,6 @@
     margin: 2.2rem;
 }
 
-.nav-top-items:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 40%;
-    height: 5px;
-    width: 15px;
-    background-color: red;
-}
 
 .nav-top-item {
     font-weight: 600;
@@ -60,9 +51,11 @@
 
 .header-title {
     margin-bottom: 1rem;
-    font-family: Lato, sans-serif;
-    font-size: 40px;
-    color: white;
+    font-family: Montserrat, sans-serif;
+    color: #ffffff;
+    font-size: 35px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    /*line-height: 9.53px;!* Приближение из-за подстановки шрифтов *!*/
     text-align: center;
     text-transform: uppercase;
 }
@@ -70,19 +63,21 @@
 .header-under-title-first {
 
     margin-bottom: 1rem;
-    font-family: Lato, sans-serif;
-    font-size: 60px;
-    color: white;
+    font-family: Montserrat, sans-serif;
+    color: #ffffff;
+    font-size: 79px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 74px; /* Приближение из-за подстановки шрифтов */
     text-align: center;
     text-transform: uppercase;
 }
 
 .header-under-title-second {
-    font-family: Lato, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 37px;
     color: darkgray;
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 110px;
 }
 
 .green-text {
@@ -96,34 +91,104 @@
 }
 
 .header-button-1 {
-    font-family: Lato, sans-serif;
+    font-family: Montserrat, sans-serif;
     display: flex;
-    width: 150px;
-    height: 70px;
-    background-color: lightseagreen;
+    border-radius: 4px;
+    background-color: #18cfab;
+    width: 166px;
+    height: 61px;
     color: white;
-    font-size: 17px;
+    font-weight: 700;
+    font-size: 15px;
     align-items: center;
+    text-align: center;
     margin-right: 1rem;
     box-sizing: border-box;
-    border-radius: 10px;
 
 }
 
 .header-button-2 {
-    font-family: Lato, sans-serif;
+    font-family: Montserrat, sans-serif;
     display: flex;
     align-items: center;
-    width: 150px;
-    height: 70px;
-    background-color: darkgreen;
+    border-radius: 4px;
+    background-color: #00cbf6;
+    width: 166px;
+    height: 61px;
     color: white;
-    font-size: 17px;
+    font-weight: 700;
+    font-size: 15px;
     box-sizing: border-box;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
 }
 
 .text-in-button {
     text-align: center;
     padding-left: 1.4rem;
+}
+
+.header-options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-option-1 {
+    background-color: #1c2a33;
+    width: 480px;
+    height: 374px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    color: #18cfab;
+    font-size: 20px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.header-option-2 {
+    background-color: #18cfab;
+    width: 480px;
+    height: 374px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    color: gray;
+    font-size: 20px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.header-option-3 {
+    background-color: #1c2a33;
+    width: 480px;
+    height: 374px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    color: #18cfab;
+    font-size: 20px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.header-option-4 {
+    background-color: #18cfab;
+    width: 480px;
+    height: 374px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    color: gray;
+    font-size: 20px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
 }
