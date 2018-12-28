@@ -229,3 +229,34 @@
     text-align: left;
     text-transform: uppercase;
 }
+
+.services-title {
+    margin-top: 5rem;
+    font-family: Montserrat, sans-serif;
+    color: #4e4e4e;
+    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 40px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.services-lines-after-1 {
+     margin-top: 2rem;
+     text-align: center;
+ }
+
+.services-lines-after-2 {
+    margin-left: 1.3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.second-section-blur {
+    background-color: rgba(0, 0, 0, 0.78);
+    background-image: url("../images/backgrounds/section-2.jpg");
+    background-repeat: no-repeat;
+}
+
+.second-section {
+    height: 474px;
+}
