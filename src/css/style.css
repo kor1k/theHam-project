@@ -25,7 +25,6 @@
     align-items: center;
 }
 
-
 .nav-top-item {
     font-weight: 600;
     margin: 1rem;
@@ -62,9 +61,8 @@
     margin-bottom: 1rem;
     font-family: Montserrat, sans-serif;
     color: #ffffff;
-    font-size: 35px;/* Приближение из-за подстановки шрифтов */
+    font-size: 35px;
     font-weight: 700;
-    /*line-height: 9.53px;!* Приближение из-за подстановки шрифтов *!*/
     text-align: center;
     text-transform: uppercase;
 }
@@ -74,9 +72,9 @@
     margin-bottom: 1rem;
     font-family: Montserrat, sans-serif;
     color: #ffffff;
-    font-size: 79px; /* Приближение из-за подстановки шрифтов */
+    font-size: 79px;
     font-weight: 700;
-    line-height: 74px; /* Приближение из-за подстановки шрифтов */
+    line-height: 74px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -128,7 +126,6 @@
     font-weight: 700;
     font-size: 15px;
     box-sizing: border-box;
-    /*border-radius: 10px;*/
 }
 
 .text-in-button {
@@ -176,7 +173,7 @@
     flex-direction: column;
     font-family: Montserrat, sans-serif;
     color: #18cfab;
-    font-size: 20px; /* Приближение из-за подстановки шрифтов */
+    font-size: 20px;
     font-weight: 700;
     text-align: left;
     text-transform: uppercase;
@@ -192,7 +189,7 @@
     align-items: center;
     font-family: Montserrat, sans-serif;
     color: gray;
-    font-size: 20px; /* Приближение из-за подстановки шрифтов */
+    font-size: 20px;
     font-weight: 700;
     text-align: left;
     text-transform: uppercase;
@@ -208,7 +205,7 @@
     flex-direction: column;
     font-family: Montserrat, sans-serif;
     color: #18cfab;
-    font-size: 20px; /* Приближение из-за подстановки шрифтов */
+    font-size: 20px;
     font-weight: 700;
     text-align: left;
     text-transform: uppercase;
@@ -224,7 +221,7 @@
     align-items: center;
     font-family: Montserrat, sans-serif;
     color: gray;
-    font-size: 20px; /* Приближение из-за подстановки шрифтов */
+    font-size: 20px;
     font-weight: 700;
     text-align: left;
     text-transform: uppercase;
@@ -234,16 +231,16 @@
     margin-top: 5rem;
     font-family: Montserrat, sans-serif;
     color: #4e4e4e;
-    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-size: 36px;
     font-weight: 400;
-    line-height: 40px; /* Приближение из-за подстановки шрифтов */
+    line-height: 40px;
     text-align: center;
 }
 
 .services-lines-after-1 {
-     margin-top: 2rem;
-     text-align: center;
- }
+    margin-top: 2rem;
+    text-align: center;
+}
 
 .services-lines-after-2 {
     margin-left: 1.3rem;
@@ -251,12 +248,9 @@
     text-align: center;
 }
 
-.second-section-blur {
-    background-color: rgba(0, 0, 0, 0.78);
-    background-image: url("../images/backgrounds/section-2.jpg");
-    background-repeat: no-repeat;
-}
-
 .second-section {
-    height: 474px;
+    background-image: url("../images/backgrounds/purchase_block_bg.png");
+    height: 470px;
+    background-size: cover;
+    background-position: center;
 }
