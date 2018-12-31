@@ -188,7 +188,7 @@
     flex-direction: column;
     align-items: center;
     font-family: Montserrat, sans-serif;
-    color: gray;
+    color: white;
     font-size: 20px;
     font-weight: 700;
     text-align: left;
@@ -220,7 +220,7 @@
     flex-direction: column;
     align-items: center;
     font-family: Montserrat, sans-serif;
-    color: gray;
+    color: white;
     font-size: 20px;
     font-weight: 700;
     text-align: left;
@@ -249,6 +249,9 @@
 }
 
 .second-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-image: url("../images/backgrounds/purchase_block_bg.png");
     height: 470px;
     background-size: cover;
@@ -265,5 +268,32 @@
     font-weight: 700;
     line-height: 40px;
     text-align: center;
+}
 
+.second-section-under-title {
+    font-family: Montserrat, sans-serif;
+    color: #d8d8d8;
+    font-size: 16px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 40px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.second-section-button {
+    margin-top: 3rem;
+    margin-left: 55rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #18cfab;
+    width: 165px;
+    height: 61px;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    color: #ffffff;
+    font-size: 13px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    /*line-height: 31px; !* Приближение из-за подстановки шрифтов *!*/
+    text-align: center;
 }
