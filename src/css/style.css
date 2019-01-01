@@ -256,7 +256,6 @@
     height: 470px;
     background-size: cover;
     background-position: center;
-
 }
 
 .second-section-title {
@@ -272,9 +271,9 @@
 .second-section-under-title {
     font-family: Montserrat, sans-serif;
     color: #d8d8d8;
-    font-size: 16px; /* Приближение из-за подстановки шрифтов */
+    font-size: 16px;
     font-weight: 400;
-    line-height: 40px; /* Приближение из-за подстановки шрифтов */
+    line-height: 40px;
     text-align: center;
 }
 
@@ -291,23 +290,22 @@
     text-transform: uppercase;
     font-family: Montserrat, sans-serif;
     color: #ffffff;
-    font-size: 13px; /* Приближение из-за подстановки шрифтов */
+    font-size: 13px;
     font-weight: 700;
-    /*line-height: 31px; !* Приближение из-за подстановки шрифтов *!*/
     text-align: center;
 }
 
 .section-3 {
-    background: #f8fcfe;;
+    background: #f8fcfe;
 }
 
 .section-3-title {
     margin-top: 6rem;
     font-family: Montserrat, sans-serif;
     color: #4e4e4e;
-    font-size: 36px; /* Приближение из-за подстановки шрифтов */
+    font-size: 36px;
     font-weight: 400;
-    line-height: 40px; /* Приближение из-за подстановки шрифтов */
+    line-height: 40px;
     text-align: center;
 }
 
